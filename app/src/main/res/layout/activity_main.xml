@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:columnOrderPreserved="false"
+    android:columnCount="3"
+    android:layout_gravity="center">
+
+    <TextView
+        android:text="Some app"
+        android:background="@drawable/back"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:id="@+id/separator"
+        android:visibility="visible"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Some app"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="Some app"
+        />
+    <TextView
+        android:text="Some app"
+        />
+    <TextView
+        android:text="Some app"
+        />
+    <TextView
+        android:text="Some app"
+        />
+    <TextView
+        android:text="Some app"
+        />
+    <TextView
+        android:text="Some app"
+        />
+    <TextView
+        android:text="Some app"
+        />
+    <TextView
+        android:text="Some app"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_row="11"
+        android:layout_column="0"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_row="11"
+        android:layout_column="1"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_row="11"
+        android:layout_column="2"
+        />
+
+</GridLayout>
